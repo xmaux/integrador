@@ -18,16 +18,39 @@ header{
 }
 
 .subtitulo{
-    background-color: #aaaaaa;
+    background-color: rgba(170, 170, 170, 0.33);
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    margin: 5px 5px 5px 5px ;
+    /* margin-top: 1em; */
     padding: 1%;
     margin-bottom: 10px;
     border-radius: 8px;
     font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 1em;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+/*     background-color: #fff;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid; */
+    background-image: url("../img/fondo_1280.jpg");
+    background-size: cover;
+    border-radius: 8px;
 }
 
 .header_content{
@@ -271,46 +294,18 @@ header{
 }
 
 /* --------------------------/carousel/-------------------------------------- */
+
 /* -------------------------- cards -------------------------------------- */
-.cont-cards{
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    padding: 10px;
-    margin: auto;
-    
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    background-color: #fff;
-    border-width: 2px;
-    border-color: red;
-    
-
-/*     flex-direction: row;
-    flex-wrap: wrap; */
-}
-
 .card{
-/*     width: 25%;
-*/
-    /* max-width: 200px; */
-    /*    height: 250px;
-    padding: 2px;
-    display: flex;
-    align-content:flex-start;
-    justify-content:center;
-    flex-wrap: wrap; */ /* propiedad del flex containter */
     /* flex-flow: row wrap; flex direction + flex wrap */
     padding: 0.5em;
     min-width: 200px;
-    /* background-color: red; */
-    /* flex: 0 1 24%; */ /* flex-grow  0 + flex-shrink 1 + width */
+    margin: 0.5em 0.5em 0.5em 0.5em;
     
     border-width: 1px;
     border-color: red;
     border-radius: 8px;
+    /* flex: 0 1 24%; */ /* flex-grow  0 + flex-shrink 1 + width */
     flex: 0 1 calc(25% - 1em);
     /* para ser mas preciso se puede usar calc. cambiando el valor de flex-basis para usar calc */
     
@@ -338,45 +333,84 @@ header{
     flex-wrap: wrap;
 }
 
-/* .card title{
-    align-content: center;
-}
-
-.card p{
-    align-content: center;
-} */
-
-
 /* --------------------------/cards/-------------------------------------- */
 
-.cont_contenedor{
-    padding: 1%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #5DADEC;
+.nosotros_img{
+    width: 20%;
+
+    margin-right: 1em;
+    float: left;
 }
 
-.cont_nosotros, .cont_contacto{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-.cont_nosotros .nosotros_info{
+.nosotros_info{
     margin: 5px 5px;
 }
 
-.cont_contacto{
-    background-color: aqua;
+.cont_formulario{
+    margin: 0 auto;
+    width: 350px;
+    padding: 1em;
+    border 1px solid #cc;
+    border-radius: 1em;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.cont_contacto .cont_contenedor .cont_formulario{
-    width: 49%;
-    background-color: red;
-}
+.cont_formulario ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.cont_formulario form li + li {
+    margin-top: 1em;
+  }
 
-.cont_contacto .cont_contenedor .cont_mapa{
+.cont_formulario label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+  }
+  
+ .cont_formulario input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+  }
+  
+ .cont_formulario  input:focus, textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: #46a2fd;
+  }
+  
+ .cont_formulario textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+ .cont_formulario .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+    margin-left: .5em;
+  }
+  
+
+.cont_mapa{
     width: 49%;
     background-color: red;
 }
@@ -389,7 +423,7 @@ header{
     margin: auto;
     margin-top: 10px;
     border-width: 0.1em;
-    border-color: red;
+    border-color: #777777;
     border-style: solid;
     background-color:#fff;
     border-radius: 8px;
@@ -403,7 +437,7 @@ header{
 
 .cont_footer:hover{
     /* margin: auto; */
-    border-color: red;
+    border-color: #777777;
     border-width: 0.2em;
     border-style: solid;
     background-color:#fff;
