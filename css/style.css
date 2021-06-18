@@ -303,14 +303,14 @@ header{
     margin: 0.5em 0.5em 0.5em 0.5em;
     
     border-width: 1px;
-    border-color: red;
+    /* border-color: red; */
     border-radius: 8px;
     /* flex: 0 1 24%; */ /* flex-grow  0 + flex-shrink 1 + width */
     flex: 0 1 calc(25% - 1em);
     /* para ser mas preciso se puede usar calc. cambiando el valor de flex-basis para usar calc */
     
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    background-color: rgba(58,134,255, 0.2);
+    background-color: rgba(255, 255, 255, 0.33);
     transition: all 0.25s;
 }
 
@@ -355,19 +355,18 @@ header{
 }
 
 .cont_formulario{
-    margin: 0.5em auto;
+    margin: 0.5em;
     width: 350px;
     height: 320px;
     padding: 1em;
     border 1px solid #cc;
     border-radius: 1em;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.33);
+
 
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: rgba(255, 255, 255, 0.33);
 }
 
 .cont_formulario ul {
@@ -419,13 +418,6 @@ header{
     margin-left: .5em;
   }
   
-
-.cont_mapa{
-    /* margin: 0.5em 0.5em 0.5em 0.5em; */
-    width: 350px;
-    height: 320px;
-    padding: 1em;
-}
 
 .cont_footer{
     padding: 2%;
