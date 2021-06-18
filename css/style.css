@@ -315,11 +315,11 @@ header{
 }
 
 .card:hover{
-    background-color: #5DADEC;
+    background-color: rgba(58,134,255, 0.5);
     box-shadow: 0 3px 3px rgba(255, 0, 0, 0.5);
     border-width: 1px;
     border-style:solid ;
-    border-color: red;
+    border-color: rgba(58,134,255, 0.6);;
 }
 
 .card img{
@@ -347,8 +347,9 @@ header{
 }
 
 .cont_formulario{
-    margin: 0 auto;
+    margin: 0.5em auto;
     width: 350px;
+    height: 320px;
     padding: 1em;
     border 1px solid #cc;
     border-radius: 1em;
@@ -358,6 +359,7 @@ header{
     align-items: center;
     justify-content: center;
 
+    background-color: rgba(255, 255, 255, 0.33);
 }
 
 .cont_formulario ul {
@@ -411,8 +413,10 @@ header{
   
 
 .cont_mapa{
-    width: 49%;
-    background-color: red;
+    /* margin: 0.5em 0.5em 0.5em 0.5em; */
+    width: 350px;
+    height: 320px;
+    padding: 1em;
 }
 
 .cont_footer{
