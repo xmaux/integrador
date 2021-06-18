@@ -327,11 +327,19 @@ header{
     height: 25%;
 }
 
-.card-texto{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.card-ul{
+    padding: 1em;
+    list-style-type:circle;
 }
+
+.card-texto{
+    margin:auto;
+    text-align: center;
+/*     display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
 
 /* --------------------------/cards/-------------------------------------- */
 
