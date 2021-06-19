@@ -561,6 +561,10 @@ header{
     .card{
         min-width: 350px;
     }
+    .card ul li{
+        font-size: 1.1em;
+        
+    }
     .nosotros_img{
         width: 40%;
     }
