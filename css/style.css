@@ -355,7 +355,7 @@ header{
 .card{
     /* flex-flow: row wrap; flex direction + flex wrap */
     padding: 0.5em;
-    min-width: 200px;
+    min-width: 250px;
     margin: 0.5em 0.5em 0.5em 0.5em;
     
     border-width: 1px;
@@ -557,6 +557,9 @@ header{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .card{
+        min-width: 300px;
     }
     .nosotros_img{
         width: 30%;
