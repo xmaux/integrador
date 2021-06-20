@@ -36,11 +36,12 @@ body{
 
 .cuadrado_central input[type="text"],
 .cuadrado_central input[type="password"],
+.cuadrado_central input[type="email"],
 .cuadrado_central input[type="submit"] {
     border: 0;
     background: none;
     display: block;
-    margin: 20px auto;
+    margin: 15px auto;
     padding: 14px 10px;
     text-align: center;
     border: 2px solid #46a2fd;
@@ -52,6 +53,7 @@ body{
 }
 
 .cuadrado_central input[type="text"]:focus,
+.cuadrado_central input[type="email"]:focus,
 .cuadrado_central input[type="password"]:focus{
     width: 280px;
     border-color: #777;
