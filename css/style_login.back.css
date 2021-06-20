@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    background-image: url("../img/fondo_1280.jpg");
+    background-size: cover;
+}
+
+.contenedor{
+    width: 100%;
+    margin-top: 100px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont_formulario{
+    padding: 1%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.33);
+    border: 1px solid #999;
+    /* height: 250px; */
+    width: 300px;
+    display: block;
+/*     justify-items: center;
+    align-items: center; */
+}
+
+.textbox{
+    margin: 40px 40px 40px 40px;    
+    outline: none; /* para que no resalte el borde al seleccionar */
+}
+
+
+.registar{
+    background-color: #777777;
+}
+.ingresar{
+    background-color: #46a2fd;
+}
+.boton{
+    display: inline-block;
+    height: 40px;
+    width: 49%;
+    margin-left: 0;
+    border-radius: 6%;
+}
+
+input{
+    height: 40px;
+    width: 200px;
+}
+li{
+    list-style: none;    
+}
+
+.logo{
+    padding: 1%;
+    height: inherit;
+    display: flex;
+    justify-content: center; /* centra horizontal */
+    align-items: center; /* centra vertical */
+}
+
+.logo h1 b{
+    color:#46a2fd ;
+}
+
