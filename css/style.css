@@ -54,7 +54,7 @@ header{
     height: 60px;
     background-color: #fff;
     box-shadow: 0 4px 25px -22px black; /* 0 de izquierda a derecha, 4px de arriba a abajo, 25px desvanecimiento, -22px tamaño de sombra*/
-    z-index: 2;
+    z-index: 11;
 }
 
 
@@ -183,7 +183,7 @@ header{
   }
    
   .respmenu input:checked ~ .fa-bars {
-    display: none;
+   display: none;
   }
    
   .respmenu input:not(:checked) ~ .fa-times {
@@ -371,7 +371,7 @@ header{
     
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     background-color: rgba(255, 255, 255, 0.33);
-    transition: all 0.25s;
+    transition: all 0.25s; /* efecto */
 }
 
 .card:hover{
@@ -591,6 +591,11 @@ header{
     .cont_footer .sociales .sociales_icono:hover{
         color: #5DADEC;
         font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 600px)and (max-width: 880px) {
+    .card{
+        min-width: 275px;
     }
 }
 
