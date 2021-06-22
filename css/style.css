@@ -218,8 +218,9 @@ header{
   }
    
   .respmenu nav {
-    display: none;
     margin-top: 35px;
+    opacity: 0;
+    visibility: hidden;
   }
   
   .respmenu nav ul li a:hover{
@@ -228,6 +229,11 @@ header{
   
   .respmenu input:checked ~ nav {
     display: block;
+    visibility:visible;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-in;
+    
   }
    
   .respmenu input:checked ~ .fa-bars {
