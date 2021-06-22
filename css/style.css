@@ -25,6 +25,20 @@ html {
     text-transform: uppercase;
 }
 
+.portada-sociales{
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-left: 55%;
+    margin-top: 35%;
+    font-size: 2em;
+    /* background-color: red; */
+}
+
+.font-blanco{
+    color: white;
+}
+
 /* .myBtn {
     display: block;
     position: fixed;
@@ -563,10 +577,10 @@ header{
     font-size: 0.8em;
 }
 
-.cont_footer .sociales .sociales_icono{
+.sociales .sociales_icono{
     font-size: 2.3em;
 }
-.cont_footer .sociales .sociales_icono:hover{
+.sociales .sociales_icono:hover{
     color: #5DADEC;
     font-size: 2.5em;
 }
@@ -600,6 +614,11 @@ header{
     .respmenu{
         display: block ;
     }
+    .portada-sociales{
+        margin-left: 40%;
+        margin-top: 35%;
+        font-size: 2em;
+     }
     .contenedor{
         display: flex;
         justify-content: center;
@@ -623,10 +642,10 @@ header{
     .cont_footer .direccion{
         font-size: 0.7em;
     }
-    .cont_footer .sociales .sociales_icono{
+    .sociales .sociales_icono{
         font-size: 1.2em;
     }
-    .cont_footer .sociales .sociales_icono:hover{
+    .sociales .sociales_icono:hover{
         color: #5DADEC;
         font-size: 1.5em;
     }
