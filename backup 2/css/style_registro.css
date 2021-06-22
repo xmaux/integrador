@@ -1,0 +1,94 @@
+*{
+    text-decoration: none;
+}
+body,html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   /* especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas. Si la cobertura (wrap) está permitida, esta propiedad también te permite controlar la dirección en la cual serán apilados los elementos */
+    justify-content: center; /* Alinea items verticalmente */
+    align-items: center; /* alinea item horizontalmente */
+    /* background-color: thistle; */
+    background-image: url("../img/fondo_1280.jpg");
+    background-size: cover;    background-color: transparent;
+}
+
+.estilo_titulo{
+    color: #46a2fd;
+    text-transform: uppercase; /* letras en mayusulas */
+    font-weight: 500; /* la negrita de la fuente */
+}
+.cuadrado_central{
+    width: 300px;
+    height: 400px;
+    padding: 40px; /* espaciado directo entre items*/
+    background-color: rgba(255, 255, 255, 0.50);;
+    text-align: center;
+    /* opacity: 0.50; */
+    border: 1px solid #999;
+    border-radius: 1em;
+}
+
+.cuadrado_central input[type="text"],
+.cuadrado_central input[type="password"],
+.cuadrado_central input[type="email"],
+.cuadrado_central input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #46a2fd;
+    width: 200px;
+    outline: none; /* para que no resalte el borde al seleccionar */
+    color: black; /* color del texto */
+    border-radius: 24px;
+    transition: 0.25s; /* para la transcicion del efecto de los textbox */
+}
+
+.cuadrado_central input[type="text"]:focus,
+.cuadrado_central input[type="email"]:focus,
+.cuadrado_central input[type="password"]:focus{
+    width: 280px;
+    border-color: #777;
+    background-color: white;
+    font-size: 1em;
+}
+
+.cuadrado_central input[type="submit"] {
+    border: 0;
+    background-color: #46a2fd;
+    cursor: pointer;
+    border: 2px solid #777;
+    color: white;
+}
+
+.cuadrado_central input[type="submit"]:hover {
+    background-color: #777;
+}
+
+.avatar{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.registro{
+    display: flex;
+    justify-content: space-between;
+}
+.registro a{
+    color: red;
+}
+.registro a:hover {
+    color: #46a2fd;
+    cursor: pointer;
+}
+

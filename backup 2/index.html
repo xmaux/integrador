@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/fontawesome-5.15.3/css/all.min.css">
+
+    <title>MyM</title>
+</head>
+<body>
+    <header>
+        <div class="header_content">
+            <div class="logo">
+                <h1>COMIDAS<b>MYM</b></h1>
+            </div>
+
+            <div class="cont_btn_pedido">
+                <button class="btn_pedido">
+                    <i class="fab fa-whatsapp"></i> Realizar Pedido
+                </button>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        
+                        <li class="menu_selected"><a href="#" class="text_menu_selected">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="respmenu">
+                <input type="checkbox">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+                <nav>
+                  <ul>
+                    <li class="menu_selected"><a href="#" class="text_menu_selected">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="login.html">Login</a></li>
+                  </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="cont_carrousel">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <img src="./img/slide_1.jpg">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="./img/slide_2.jpg">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="./img/slide_3.jpg">
+                        <P class="carousel-titulo">EL TITULO</P>
+                    </div>
+                    <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-2" class="carousel-control next control-1">›</label>
+                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                    <label for="carousel-3" class="carousel-control next control-2">›</label>
+                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                    <label for="carousel-1" class="carousel-control next control-3">›</label>
+                    <ol class="carousel-indicators">
+                        <li>
+                            <label for="carousel-1" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-2" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-3" class="carousel-bullet">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contenedor">
+            <div class="subtitulo" id="productos">
+                <p>Nuestros Productos</p>
+            </div>
+
+             <div class="card">
+                <img src="./img/01.jpg">
+                <div>
+                    <h2 class="card-texto">Pizzas</h2>
+                    <ul class="card-ul">
+                        <li>Muzzarella</li>
+                        <li>Especial</li>
+                        <li>Morron</li>
+                        <li>Italiana</li>
+                        <li>Española</li>
+                        <li>Super</li>
+                        <li>El gordote</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/02.jpg">
+                <div>
+                    <h2 class="card-texto">Empanadas</h2>
+                    <ul class="card-ul">
+                        <li>Carne</li>
+                        <li>Pollo</li>
+                        <li>Verdura</li>
+                        <li>Humita</li>
+                        <li>Carne cortada cuchillo</li>
+                        <li>Pescado</li>
+                        <li>Zapallo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/03.jpg">
+                <div>
+                    <h2 class="card-texto">Al Plato</h2>
+                    <ul class="card-ul">
+                        <li>Pastel de papas</li>
+                        <li>Ravioles</li>
+                        <li>Ensaladas</li>
+                        <li>Polenta con tuco</li>
+                        <li>Guiso de lentejas</li>
+                        <li>Guiso de pollo</li>
+                        <li>Pollo al verdeo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/04.jpg">
+                <div>
+                    <h2 class="card-texto">Bebidas</h2>
+                    <ul class="card-ul">
+                        <li>Coca Cola</li>
+                        <li>Fanta</li>
+                        <li>Sprite</li>
+                        <li>Pepsi</li>
+                        <li>Cerveza tirada</li>
+                        <li>Speed</li>
+                        <li>7Up</li>
+                    </ul>
+                </div>
+            </div>           
+        </div>
+
+        <div class="contenedor">
+            <div class="subtitulo" id="nosotros">
+                <p>Nosotros</p>
+            </div>
+
+            <div class="nosotros_info">
+                <img class="nosotros_img" src="./img/img.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nihil officiis expedita inventore assumenda reprehenderit explicabo praesentium nisi, quidem sit exercitationem quam consectetur delectus molestiae natus dolore? Facilis, eligendi voluptatum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero doloribus quibusdam ipsum enim dicta nulla voluptatem explicabo id possimus blanditiis dolorum fuga ipsam, molestias quae officiis voluptatum illum voluptas!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias modi deserunt dolore tenetur animi eligendi repudiandae, ducimus voluptatem consequatur temporibus impedit. Fugiat ex blanditiis cum aliquam reiciendis itaque fuga.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nihil officiis expedita inventore assumenda reprehenderit explicabo praesentium nisi, quidem sit exercitationem quam consectetur delectus molestiae natus dolore? Facilis, eligendi voluptatum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero doloribus quibusdam ipsum enim dicta nulla voluptatem explicabo id possimus blanditiis dolorum fuga ipsam, molestias quae officiis voluptatum illum voluptas!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem alias modi deserunt dolore tenetur animi eligendi repudiandae, ducimus voluptatem consequatur temporibus impedit. Fugiat ex blanditiis cum aliquam reiciendis itaque fuga.
+                </p>               
+            </div>                
+        </div>
+
+        <div class="contenedor">
+            <div class="subtitulo" id="contacto">
+                <p>Contacto</p>
+            </div>
+
+            <div class="cont_formulario">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26173.867761742036!2d-57.9709175!3d-34.9131376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4614d7f14a837a21!2sMcDonald&#39;s!5e0!3m2!1ses!2sar!4v1623899650318!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="cont_formulario">
+                <div class="formulario" class="formulario">
+                    <form action="#" method="post">
+                        <ul>
+                        <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name">
+                        </li>
+                        <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail">
+                        </li>
+                        <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                        <li>
+                            <input type="button" value="Enviar">
+                        </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="cont_footer">
+            <div class="direccion">
+                <p><i class="fas fa-phone"></i> 221 4568978</p>
+                <p><i class="fab fa-whatsapp"></i> 221 5469875</p>
+                <p><i class="fas fa-map-marker-alt"></i> 5 Nº 547 entre 2 y 3, La Plata</p>
+                <!-- <p>La Plata, Buenos Aires, Argentina</p> -->
+            </div>
+            <div class="sociales">
+                <i class="fab fa-whatsapp sociales_icono"></i>
+                <i class="fab fa-facebook sociales_icono"></i>
+                <i class="fab fa-instagram sociales_icono"></i>
+            </div>
+
+            <div class="logo">
+                <h1>COMIDAS<b>MYM</b></h1>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
